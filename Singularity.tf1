@@ -1,3 +1,4 @@
+  
 Bootstrap: docker
 From: tensorflow/tensorflow:1.13.1-gpu-py3
 
@@ -48,14 +49,22 @@ From: tensorflow/tensorflow:1.13.1-gpu-py3
   # SimpleITK
   pip install simpleitk
   
-  # H5PY
+  #comet
+  pip install comet_ml
+  
+  #pandas
+  pip install pandas
+  
+  #h5
   pip install h5py
+
+  #tqdm
   pip install tqdm
 
   # for Xiaoxiao
-  pip install tables #pytables
-  pip install nilearn
-  pip install nibabel
+  #pip install tables #pytables
+  #pip install nilearn
+  #pip install nibabel
 
   # TODO: SimpleElastix
   # git clone https://github.com/SuperElastix/SimpleElastix

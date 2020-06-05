@@ -60,6 +60,9 @@ From: tensorflow/tensorflow:1.13.1-gpu-py3
 
   #tqdm
   pip install tqdm
+  
+  # scikit, scipy
+  pip install scipy scikit-learn scikit-image
 
   # for Xiaoxiao
   #pip install tables #pytables
